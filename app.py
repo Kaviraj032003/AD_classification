@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Load the trained model
-model = load_model("models/alzheimer_model.h5")
+model = load_model("models/alzheimers_model.h5")
 
 # Class labels (ensure these match your training classes)
 class_labels = ['Mild Dementia', 'Moderate Dementia', 'No Dementia', 'Very Mild Dementia']
