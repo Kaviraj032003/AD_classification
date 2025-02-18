@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body { background: linear-gradient(135deg, #667eea, #764ba2); font-family: 'Arial', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .result-container { background: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); text-align: center; }
+        h1 { color: #4CAF50; margin-bottom: 20px; }
+        .prediction { font-size: 1.5rem; color: #00796b; margin-top: 20px; }
+        .button { display: inline-block; margin-top: 20px; padding: 10px 20px; background: linear-gradient(135deg, #42a5f5, #478ed1); color: #fff; text-decoration: none; border-radius: 20px; transition: 0.3s; }
+        .button:hover { background: linear-gradient(135deg, #478ed1, #42a5f5); }
+    </style>
+</head>
+<body>
+<div class="result-container">
+    <h1>Prediction Result</h1>
+    <p class="prediction">The predicted class is: {{prediction}}</p>
+    <a href="/" class="button">Upload Another Image</a>
+</div>
+</body>
+</html>
